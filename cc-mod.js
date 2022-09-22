@@ -104,6 +104,6 @@ if (!process.argv[2] !== !process.argv[2].startsWith('http://') && !process.argv
     process.exit();
 }
 
-console.log("Romeo".rainbow + " | CC ATTACK 已发动攻击");
+console.log("Ares".rainbow + " | CC ATTACK 已发动攻击");
 console.log('\x1b[36mLoading\x1b[37m proxy list : %s', process.argv[3]);
 console.log("\x1b[36mAttempting\x1b[37m to " + methods + " : %s || " + "\x1b[35m" + parsed.host + "\x1b[37m", process.argv[2]);
