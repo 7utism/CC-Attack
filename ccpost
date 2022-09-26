@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 node cc-mod.js $1 cc.txt $2 POST &
 node cc-mod.js $1 cc.txt $2 POST &
 node cc-mod.js $1 cc.txt $2 POST &
@@ -98,4 +98,4 @@ node cc-mod.js $1 cc.txt $2 POST &
 node cc-mod.js $1 cc.txt $2 POST &
 node cc-mod.js $1 cc.txt $2 POST &
 node cc-mod.js $1 cc.txt $2 POST &
-echo
+echo  'Ares-CC-Attack 已提交成功  Method=Post'
